@@ -20,11 +20,16 @@ p {
 }
 a {
   font-family: "Raleway", sans-serif;
-  color: #F15B31;
+  color: white;
   letter-spacing: 1px;
   font-weight: 600;
   font-size: 18px;
   margin: 0 20px;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+a:hover {
+  border-color: white;
 }
 body {
   text-align: center;
@@ -48,7 +53,7 @@ img {
 footer {
   text-transform: uppercase;
   padding: 0 20px;
-  background-color: #F15B31;
+  background-color: #0D2C40;
   color: white;
   font-size: 14px;
   letter-spacing: .08em;
@@ -69,4 +74,8 @@ footer {
   clear: both;
   height: 0;
   font-size: 0;
+}
+.name {
+  color: #F15B31;
+  font-weight: 700;
 }
