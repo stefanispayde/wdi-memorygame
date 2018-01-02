@@ -1,7 +1,3 @@
-body {
-  text-align: center;
-  margin: 0;
-}
 h1 {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
@@ -35,6 +31,10 @@ a {
 a:hover {
   border-color: white;
 }
+body {
+  text-align: center;
+  margin: 0;
+}
 header {
   background-color: #F15B31;
   padding: 30px 20px;
@@ -48,7 +48,7 @@ main {
   margin: 35px auto;
 }
 img {
-  margin: 40px 8px 0;
+  margin: 40px 8px;
 }
 footer {
   text-transform: uppercase;

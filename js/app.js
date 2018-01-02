@@ -57,3 +57,4 @@ var createBoard = function(){
 };
 
 createBoard();
+flipCard();
